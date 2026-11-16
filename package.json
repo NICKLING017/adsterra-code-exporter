@@ -1,0 +1,21 @@
+{
+  "name": "adsterra-code-exporter",
+  "version": "2.1.2",
+  "private": true,
+  "description": "One-click copy of a website's Adsterra ad snippets.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node content.test.cjs",
+    "check": "node --check content.js && node --check make-icons.cjs",
+    "icons": "node make-icons.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "jsdom": "^27.0.0"
+  },
+  "dependencies": {
+    "adsterra-code-exporter": "file:"
+  }
+}

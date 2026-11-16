@@ -1,0 +1,7 @@
+node_modules/
+.workbuddy/
+.env
+.env.*
+*.log
+# Obsolete v2.0 network hook, no longer used by manifest.json.
+main.js
